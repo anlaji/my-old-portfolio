@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta
+      http-equiv="content-type"
+      content="text/html; charset=UTF-8"
+      lang="de"
+    />
+    <script src="myScriptFormular.js"></script>
+    <title>UE_Formulare</title>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <td>
+          <form
+            action="http://www.example.org/cgi"
+            method="post"
+            enctype="multipart/form-data"
+          >
+            <table>
+              <thead>
+                <tr>
+                  <td colspan="2" rowspan="1">
+                    <h2>Feedback:</h2>
+                    <br />
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Vorname:</td>
+                  <td>
+                    <p>
+                      <input
+                        type="text"
+                        name="vorname"
+                        size="30"
+                        maxlength="30"
+                        required
+                      />
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nachname:</td>
+                  <td>
+                    <p>
+                      <input
+                        type="text"
+                        name="nachname"
+                        size="30"
+                        maxlength="30"
+                        required
+                      />
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>eMail:</td>
+                  <td>
+                    <p>
+                      <input
+                        type="text"
+                        name="usermail"
+                        size="30"
+                        maxlength="30"
+                        required
+                      />
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Besuchte Unterkunft:</td>
+                  <td>
+                    <p>
+                      <select name="Unterkunften" size="1">
+                        <optgroup label="Oberösterreich">
+                          <option label="BerghotelHinterstoder">
+                            Berghotel Hinterstoder
+                          </option>
+                          <option label="HotelHornspitz">
+                            Hotel Hornspitz
+                          </option>
+                        </optgroup>
+                        <optgroup label="Niederösterreich">
+                          <option label="PensionLöffler">
+                            Pension Löffler
+                          </option>
+                        </optgroup>
+                        <optgroup label="Steiermark">
+                          <option label="MONDI-HOLIDAYHotelGrundlsee">
+                            MONDI-HOLIDAY Hotel Grundlsee
+                          </option>
+                          <option label="HotelStoiserGraz">
+                            Hotel Stoiser Graz
+                          </option>
+                        </optgroup>
+                      </select>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Gesamteindruck:</td>
+                  <td>
+                    <p>
+                      <input type="radio" name="eindruck" value="SehrGut" /> 1
+                      (sehr gut)
+                      <input type="radio" name="eindruck" value="Gut" /> 2 (gut)
+                      <input
+                        type="radio"
+                        name="eindruck"
+                        value="befriedigend"
+                      />
+                      3 (befriedigend)
+                      <input type="radio" name="eindruck" value="Genuegend" /> 4
+                      (genügend)
+                      <input
+                        type="radio"
+                        name="eindruck"
+                        value="NichtGenuegend"
+                      />
+                      5 (nicht genügend)
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Genutzte Einrichtungen:</td>
+                  <td>
+                    <p>
+                      <input
+                        type="checkbox"
+                        name="einrichtungen"
+                        value="sauna"
+                      />
+                      Sauna
+                      <input
+                        type="checkbox"
+                        name="einrichtungen"
+                        value="waschmaschine"
+                      />
+                      Waschmaschine
+                      <input
+                        type="checkbox"
+                        name="einrichtungen"
+                        value="parkplatz"
+                      />
+                      Parkplatz
+                      <input
+                        type="checkbox"
+                        name="einrichtungen"
+                        value="wifi"
+                      />
+                      Wi-Fi
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Kommentar:</td>
+                  <td>
+                    <textarea name="kommentar" cols="70" rows="10">
+Bitte geben Sie Ihren Kommentar hier ein!</textarea
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td><input type="submit" value="Absenden" /></td>
+                  <td>
+                    <input type="reset" value="Abbrechen" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

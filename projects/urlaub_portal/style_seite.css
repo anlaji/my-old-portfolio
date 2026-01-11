@@ -1,0 +1,25 @@
+#all {
+  width: 2000px;
+  padding: 10px;
+}
+#header {
+  width: 2000px;
+  height: 100px;
+  background: #ffcc33;
+}
+#navigation {
+  width: 350px;
+  float: left;
+  background: white;
+}
+#content {
+  width: 650px;
+  float: left;
+  background: white;
+}
+#footer {
+  width: 2000px;
+  height: 25px;
+  background: #ffcc33 !important;
+  clear: both;
+}

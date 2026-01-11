@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('ABeeZee'),
+    local('ABeeZee-Regular'),
+    url(http://themes.googleusercontent.com/static/fonts/abeezee/v2/m_J3nYLkIiGqm2wAiy01kg.woff)
+      format('woff');
+}
+@font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: 400;
+  color: #a8a8a8;
+  src:
+    local('Tangerine'),
+    url(http://themes.googleusercontent.com/static/fonts/tangerine/v4/HGfsyCL5WASpHOFnouG-RD8E0i7KZn-EPnyo3HZu7kw.woff)
+      format('woff');
+}
+table {
+  border-collapse: collapse white 1px;
+}
+h1 {
+  font-family: 'Tangerine';
+  color: #ffcc33;
+  word-wrap: break-word;
+  margin: 0px;
+  padding: 0;
+  font-size: 40px;
+}
+#second {
+  width: 250px;
+  word-wrap: break-word;
+}
+a {
+  font-family: 'ABeeZee';
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+  font-size: large;
+}
+a.center {
+  font-family: 'ABeeZee';
+  list-style: none;
+  margin: 10px;
+  padding: 0px 20px;
+  font-size: 15px;
+}
+a:link {
+  color: #a8a8a8;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:visited {
+  color: #a8a8a8;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #a8a8a8;
+}
+a.center:hover {
+  background: #a8a8a8;
+  margin: 10px;
+  padding: 0px 20px;
+}
+a:active {
+  color: teal;
+  text-decoration: none;
+}

@@ -1,0 +1,157 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="/pruebassitio/styles/style_pocoyo.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>The British Museum</title>
+  </head>
+  <body>
+    <main>
+      <h1>The British Museum</h1>
+      <section>
+        <h2>Collection highlights</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>
+          See more
+          <a target="_blank" href="https://www.britishmuseum.org/collection"
+            >collection highlights</a
+          >
+          in our gallery.
+        </p>
+        <a href="https://www.britishmuseum.org/collection"
+          ><img
+            src="https://www.britishmuseum.org/sites/default/files/styles/bm_gallery_medium_700h/public/2019-10/coffin-priest-hornedjitef-thebes-mummies-british-museum.jpg"
+            alt="Inner coffin of hornedjitef, Egypt, 240BC"
+        /></a>
+      </section>
+      <section>
+        <h2>Collection Themes:</h2>
+        <h3>Discover...</h3>
+        <ul>
+          <li>Americas</li>
+          <li>Animals</li>
+          <li>China</li>
+          <li>Death and memory</li>
+          <li>Desire, love and identity</li>
+          <li>Africa</li>
+          <li>Egypt</li>
+        </ul>
+        <figure>
+          <img
+            src="https://www.britishmuseum.org/sites/default/files/styles/bm_gallery_medium_700h/public/2019-10/lewis-chessmen-carved-scotland-british-museum.jpg"
+            alt="Lewis Chessmen"
+          />
+          <figcaption>Lewis <em>chessmen</em>.</figcaption>
+        </figure>
+        <h3>Next special exhibitions...</h3>
+        <ol>
+          <li>
+            <a
+              href="https://www.britishmuseum.org/exhibitions/hieroglyphs-unlocking-ancient-egypt"
+            >
+              Hieroglyphs - <strong>unlocking ancient Egypt</strong>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.britishmuseum.org/exhibitions/luxury-and-power-persia-greece"
+            >
+              Luxury and Power - <strong>Persia to Greece</strong>
+            </a>
+          </li>
+          <li>Kali</li>
+          <li>Venice 1500</li>
+          <li>Art on paper since 1960</li>
+        </ol>
+        <figure>
+          <img
+            src="https://www.britishmuseum.org/sites/default/files/styles/bm_gallery_medium_700h/public/2022-09/Kiki_Smith_Visitation_I_2007.jpg"
+            alt="Visitation 1"
+          />
+          <figcaption>Visitation | by <em>Kiki Smith</em>.</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>Plan your visit - Form</h2>
+        <form action="https://www.britishmuseum.org/submit-visit-info">
+          <fieldset>
+            <legend>When are you going to visit us?</legend>
+            <label
+              ><input
+                id="morning"
+                type="radio"
+                name="morning-afternoon"
+                value="morning"
+                checked
+              />
+              Morning</label
+            >
+            <label
+              ><input
+                id="afternoon"
+                type="radio"
+                name="morning-afternoon"
+                value="afternoon"
+              />
+              Afternoon</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>Which collections are you interested in?</legend>
+            <input
+              id="greece"
+              type="checkbox"
+              name="collection"
+              value="greece"
+              checked
+            />
+            <label for="greece">Greece</label>
+            <input
+              id="africa"
+              type="checkbox"
+              name="collection"
+              value="africa"
+            />
+            <label for="africa">Africa</label>
+            <input id="egypt" type="checkbox" name="collection" value="egypt" />
+            <label for="egypt">Egypt</label>
+            <input
+              id="china"
+              type="checkbox"
+              name="collection"
+              value="china"
+              checked
+            />
+            <label for="china">China</label>
+            <input
+              id="americas"
+              type="checkbox"
+              name="collection"
+              value="americas"
+            />
+            <label for="americas">Americas</label>
+          </fieldset>
+          <input
+            type="text"
+            name="visitphotourl"
+            placeholder="your visit plan URL"
+            required
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright -
+        <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+    <script src="scripts/main_brimu.js"></script>
+  </body>
+</html>

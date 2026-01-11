@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+
+    <title>Mi página de prueba</title>
+  </head>
+  <body>
+    <label for="theme">Select theme: </label>
+    <select id="theme">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+      <option value="purple">Purple</option>
+      <option value="yellow">Yellow</option>
+      <option value="psychedelic">Psychedelic</option>
+    </select>
+    <h1>This is my profile</h1>
+    <h2></h2>
+    <label for="weather">Select the weather type today: </label>
+    <select id="weather">
+      <option value="">--Make a choice--</option>
+      <option value="sunny">Sunny</option>
+      <option value="rainy">Rainy</option>
+      <option value="snowing">Snowing</option>
+      <option value="overcast">Overcast</option>
+    </select>
+    <p id="weather_hint"></p>
+
+    <label for="calendar">Select the current month: </label>
+    <select id="calendar">
+      <option value="">--Make a choice--</option>
+      <option value="january">January</option>
+      <option value="february">February</option>
+      <option value="march">March</option>
+      <option value="april">April</option>
+      <option value="may">May</option>
+      <option value="june">June</option>
+      <option value="july">July</option>
+      <option value="august">August</option>
+      <option value="september">September</option>
+      <option value="october">October</option>
+      <option value="november">November</option>
+      <option value="december">December</option>
+    </select>
+    <ul id="days_month"></ul>
+
+    <canvas></canvas>
+
+    <label for="search">Search by contact name: </label>
+    <input id="search" type="text" />
+    <button id="searchContact">Search</button>
+
+    <p id="selected_contact"></p>
+
+    <button>Display message box</button>
+
+    <script src="scripts/main_timetable.js"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('ABeeZee'),
+    local('ABeeZee-Regular'),
+    url(http://themes.googleusercontent.com/static/fonts/abeezee/v2/m_J3nYLkIiGqm2wAiy01kg.woff)
+      format('woff');
+}
+@font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Tangerine'),
+    url(http://themes.googleusercontent.com/static/fonts/tangerine/v4/HGfsyCL5WASpHOFnouG-RD8E0i7KZn-EPnyo3HZu7kw.woff)
+      format('woff');
+}
+table {
+  border: white 3px solid;
+  width: 650px;
+  padding: 30px;
+}
+#thead {
+  background: #ffcc33 !important;
+  color: white;
+  font-family: 'Tangerine' !important;
+  font-weight: bold !important;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+#tfoot {
+  font-weight: bold;
+  text-align: right;
+  font-family: 'ABeeZee';
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+#tfoot:first-letter {
+  font-size: 150%;
+}
+#one {
+  background: #ffcc33 !important;
+  color: white;
+  font-family: 'Tangerine' !important;
+  font-weight: bold !important;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center !important;
+}
+#desc {
+  text-align: left;
+  font-family: 'ABeeZee';
+  font-style: normal;
+}
+#foto {
+  text-align: center;
+  height: auto;
+  border: 1px dashed white;
+}
+p {
+  background: #ffcc33 !important;
+  vertical-align: text-bottom !important;
+  font-family: 'Tangerine' !important;
+  font-weight: bold !important;
+  color: white;
+  padding: 0px;
+  border: 0px solid black;
+
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 1;
+  font-size: 24px;
+  font-weight: normal;
+  vertical-align: middle;
+  align: middle;
+}
+
+/* Zeilen mit ungerader Nummer */
+#tbody tr:nth-child(odd) {
+  color: black;
+  background-color: white;
+}
+/* Zeilen mit gerader Nummer */
+#tbody tr:nth-child(even) {
+  color: black;
+  background-color: #eeeeee;
+}
+a:link {
+  color: #a8a8a8;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #a8a8a8;
+}
+a:active {
+  color: teal;
+  text-decoration: none;
+}

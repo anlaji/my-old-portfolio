@@ -1,6 +1,6 @@
 # anlaji.github.io
 
-Welcome to my-old-portfolio-anlaji.vercel.app — a professional, energetic showcase of personal projects, experiments and learning artifacts. This repository powers the public site at https://anlaji.github.io and collects a wide range of web experiments, tutorials and small applications that demonstrate practical problem solving across front-end development, performance, tooling and project organization.
+Welcome to my-old-portfolio-anlaji.vercel.app — a professional, energetic showcase of personal projects, experiments and learning artifacts. This repository powers the public site at my-old-portfolio-anlaji.vercel.app and collects a wide range of web experiments, tutorials and small applications that demonstrate practical problem solving across front-end development, performance, tooling and project organization.
 
 ---
 

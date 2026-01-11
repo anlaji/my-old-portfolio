@@ -1,6 +1,6 @@
 # my-old-portfolio-anlaji
 
-Welcome to my-old-portfolio — a professional, energetic showcase of personal projects, experiments and learning artifacts. This repository powers the public site at [Portfolio]([my-old-portfolio-anlaji.vercel.app]) and collects a wide range of web experiments, tutorials and small applications that demonstrate practical problem solving across front-end development, performance, tooling and project organization.
+Welcome to my-old-portfolio — a professional, energetic showcase of personal projects, experiments and learning artifacts. This repository powers the public site at [Portfolio](my-old-portfolio-anlaji.vercel.app) and collects a wide range of web experiments, tutorials and small applications that demonstrate practical problem solving across front-end development, performance, tooling and project organization.
 
 ---
 
